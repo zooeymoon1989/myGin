@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 	"log"
+	"myGin/routes"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
-	"zooeymoon1989/myGin/routes"
 )
 
 func main() {
