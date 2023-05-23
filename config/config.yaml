@@ -1,0 +1,15 @@
+ProjectName : CdpServer
+
+Log :
+  LogPath : /var/log/cdp
+  LogLevel : info
+  IsStdOut : no
+  IsPProf : no
+  PathPProf : /var/log/cdp/pprof
+
+Mongodb :
+  Host : 192.168.31.123:27017
+  User : user_adm
+  Passwd : Aqm3GzSaw2dYABncD
+  DbName : db_adm
+  PoolLimit : 100
